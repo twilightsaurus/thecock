@@ -21,16 +21,6 @@
   justify-content: center;
 }
 
-@media (max-width: 948px) {
-  .main-row {
-    flex-direction: column;
-  }
-
-  .row-section {
-    margin: 2rem 0;
-  }
-}
-
 .brick-row {
   flex: 1;
 }
@@ -78,4 +68,18 @@
 
 .ca:hover {
   color: white;
+}
+
+@media (max-width: 948px) {
+  .main-row {
+    flex-direction: column;
+  }
+
+  .row-section {
+    margin: 2rem 0;
+  }
+
+  .gat {
+    margin-right: 0;
+  }
 }
