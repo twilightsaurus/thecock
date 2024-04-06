@@ -1,0 +1,81 @@
+.content {
+  flex: 2 0 66%;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.content-row {
+  padding: 0 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row-section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+@media (max-width: 948px) {
+  .main-row {
+    flex-direction: column;
+  }
+
+  .row-section {
+    margin: 2rem 0;
+  }
+}
+
+.brick-row {
+  flex: 1;
+}
+
+.intro {
+  max-width: 75%;
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7em;
+  margin: auto;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.link {
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  padding: 4px 16px;
+}
+
+.gat {
+  width: 40vh;
+  filter: drop-shadow(3px 3px 3px hsl(0, 0%, 0%));
+  margin-right: 10vh;
+}
+
+.ca {
+  font-size: 1.5em;
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 400;
+  font-style: normal;
+  filter: drop-shadow(3px 3px 3px hsl(0, 0%, 0%));
+}
+
+.ca:hover {
+  color: white;
+}
